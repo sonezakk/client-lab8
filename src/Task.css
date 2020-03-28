@@ -1,0 +1,67 @@
+li{
+    position: relative;
+    display : flex;
+    flex-direction: column;
+    width: 180px;
+    height: 200px;
+    /* border-style: dashed; */
+    margin: 0 16px 16px 0;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.15);
+}
+
+.id{
+    position: absolute;
+    right: 4px;
+    top:  2px;
+}
+
+.name{
+ font-size: 2em;
+ display: flex;
+ flex-direction: column;
+  justify-content: center;
+ text-align: center;
+ flex: 1;
+ /* border-style: dotted; */
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+   display: flex;
+ 
+}
+.editbutton{
+    background: lightgreen;
+}
+.delebutton{
+    background: lightsalmon;
+}
+h1
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background: sandybrown;
+    margin: 0 0px 0px 0;
+    padding: 5px 20px 20px 0;
+    
+     
+}
+.back h2
+{ 
+ background: red;
+ margin: 0 auto;
+ font-size: 30px;
+ padding : 5px 20px 20px 0;
+ text-align: center;
+}
+
+.input_ button
+{
+    background-color:rebeccapurple;
+    margin: 0 auto;
+}
